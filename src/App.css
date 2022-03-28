@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+.mainTodo {
+  max-width: 400px;
+  padding: 20px;
+  margin: 10px;
+  background-color: aqua;
+  display: block;
+}
+.todo {
+  display: block;
+}
+.disc {
+  display: none;
+}
+
+.mainTodo:hover > .disc {
+  display: block;
+}
+
+.disc > .date {
+  padding: 10px;
+  border-right: 1px solid white;
+}
+
+.disc > .time {
+  padding-left: 10px;
+  border-left: 1px solid white;
+}

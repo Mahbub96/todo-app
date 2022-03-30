@@ -20,15 +20,6 @@ function Todos({ setTodos, allTodos, handleEdit, todosCollectionRef }) {
     console.log(allTodos);
   };
 
-  /*
-  function handleEdit(id) {
-    let newArray = allTodos.filter((todo) => id !== todo.id);
-    setTodo(newArray.todo);
-    setTodoDisc(newArray.todoDisc);
-    setDate(newArray.date);
-    setTime(newArray.time);
-  }
-*/
   return (
     <div className="container">
       <h1>React Todo App</h1>
